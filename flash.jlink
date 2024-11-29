@@ -1,0 +1,6 @@
+r
+h
+loadfile build/solar_clock.elf
+r
+g
+exit

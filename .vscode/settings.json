@@ -1,9 +1,16 @@
 {
     "files.associations": {
-        "array": "cpp",
-        "format": "cpp",
-        "tuple": "cpp",
-        "utility": "cpp",
-        "variant": "cpp"
+        "stdlib.h": "c",
+        "uart.h": "c",
+        "gpio.h": "c",
+        "io_bank0.h": "c",
+        "stdio_rtt.h": "c",
+        "stdio.h": "c",
+        "pico.h": "c",
+        "sockets.h": "c",
+        "netdb.h": "c",
+        "http_client.h": "c",
+        "cyw43_arch.h": "c",
+        "socket": "c"
     }
 }

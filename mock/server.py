@@ -27,6 +27,8 @@ response = json.dumps(response)
 
 class MockServerRequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
+        print("GET request received from {}".format(self.client_address))
+
         parsed_path = urllib.parse.urlparse(self.path)
         query_params = urllib.parse.parse_qs(parsed_path.query)
 
